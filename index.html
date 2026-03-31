@@ -15,9 +15,12 @@
         .card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); border-color: var(--primary); }
         .badge { display: inline-block; background: #dbeafe; color: #1e40af; padding: 4px 12px; border-radius: 8px; font-size: 0.75em; font-weight: 700; margin-bottom: 10px; text-transform: uppercase; }
         .section-title { font-size: 1.8em; margin-top: 60px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; display: flex; align-items: center; }
-        .section-title::before { content: '🚀'; margin-right: 15px; }
+        
+        /* İkon ve Başlık Güncellemeleri */
+        .section-title::before { content: '💻'; margin-right: 15px; }
         .academic::before { content: '🎓'; }
         .system::before { content: '⚙️'; }
+        
         footer { text-align: center; margin-top: 80px; padding-bottom: 40px; color: #64748b; }
         .contact-links a { color: #38bdf8; text-decoration: none; margin: 0 10px; font-weight: bold; }
     </style>
@@ -27,62 +30,66 @@
 <header>
     <div class="container">
         <h1 class="profile-title">Kutay Serhat Öztürk</h1>
-        <p style="font-size: 1.2em; opacity: 0.9;">Bilgisayar Mühendisliği Öğrencisi | Kırıkkale Üniversitesi</p>
+        <p style="font-size: 1.2em; opacity: 0.9;">Bilgisayar Mühendisliği Öğrenci | Kırıkkale Üniversitesi</p>
         <div class="contact-links">
-            <a href="https://github.com/KutaySerhat">GitHub</a> • 
-            <a href="mailto:iletisim@kutayserhat.dev">iletisim@kutayserhat.dev</a>
+            <a href="https://github.com/KutaySerhat" target="_blank">GitHub</a> • 
+            <a href="mailto:iletisim@kutayserhat.dev">iletisim@kutayserhat.dev</a> •
+            <a href="https://www.linkedin.com/in/kutayserhat-ozturk" target="_blank">LinkedIn</a>
         </div>
     </div>
 </header>
 
 <div class="container">
-    
-    <h2 class="section-title">Amiral Gemisi Projeler</h2>
+
+    <h2 class="section-title">Öne Çıkan Projeler</h2>
     <div class="grid">
         <div class="card">
-            <span class="badge">Python / Autonomous</span>
+            <span class="badge">PYTHON / AUTONOMOUS</span>
             <h3>SİHA Otonom Kaçış Sistemi</h3>
-            <p>Tehdit algılama tabanlı, gerçek zamanlı veri işleyen ve otonom manevra kararları alan bir kontrol katmanı geliştiriyorum. Linux tabanlı sistemlerde performans optimizasyonu sağlıyorum.</p>
+            <p>Tehdit algılama tabanlı, gerçek zamanlı veri işleme ve otonom manevra kararları alan bir kontrol katmanı geliştiriyorum. Linux tabanlı sistemlerde performans optimizasyonu sağlıyorum.</p>
         </div>
     </div>
 
-    <h2 class="section-title system">Sistem Programlama & Concurrency</h2>
+    <h2 class="section-title system">Sistem Programlama ve Eşzamanlılık</h2>
     <div class="grid">
         <div class="card">
-            <span class="badge">Multi-threading</span>
+            <span class="badge">MULTI-THREADING</span>
             <h3>Concurrent Data Processing</h3>
-            <p>Python'da <code>threading</code> ve <code>multiprocessing</code> modülleri kullanarak sensör verilerinin eş zamanlı işlenmesi üzerine çalışmalar.</p>
+            <p>Python'da threading ve multiprocessing modülleri kullanarak sensör verilerinin eş zamanlı işlenmesi üzerine teknik çalışmalar yürütüyorum.</p>
         </div>
         <div class="card">
-            <span class="badge">System Arch</span>
+            <span class="badge">SYSTEM ARCH</span>
             <h3>Thread Synchronization</h3>
-            <p>Mutex ve Semaphore mekanizmaları ile Race Condition problemlerinin çözümü ve veri tutarlılığı çalışmaları.</p>
+            <p>Mutex, Semaphore ve lock mekanizmaları ile Race Condition problemlerinin çözümü ve veri tutarlılığı senaryoları üzerine çalışmalar.</p>
         </div>
     </div>
 
-    <h2 class="section-title academic">Akademik Projeler & Temeller</h2>
+    <h2 class="section-title academic">Akademik Çalışmalar ve Temeller</h2>
     <div class="grid">
         <div class="card">
-            <span class="badge">C++ / OOP</span>
-            <h3>Veri Yapıları & Algoritmalar</h3>
-            <p>Linked List, Stack, Queue ve Tree yapılarının C++ ile implementasyonu. Karmaşıklık analizi (Big O) çalışmaları.</p>
+            <span class="badge">C# / OOP / ALGORITHMS</span>
+            <h3>Veri Yapıları ve Algoritmalar</h3>
+            <p>Linked List, Stack, Queue ve Tree yapılarının C# ile implementasyonu. Karmaşıklık analizi (Big O) ve algoritma verimliliği çalışmaları.</p>
         </div>
         <div class="card">
-            <span class="badge">Digital Design</span>
+            <span class="badge">DIGITAL DESIGN</span>
             <h3>Mantıksal Devre Tasarımları</h3>
-            <p>Logic Gate simülasyonları, flip-flop yapıları ve temel işlemci mimarisi üzerine kuramsal ve pratik devre tasarımları.</p>
+            <p>Logic Gate simülasyonları, flip-flop yapıları ve temel işlemci mimarisi üzerine kurumsal ve pratik devre tasarımları.</p>
         </div>
         <div class="card">
-            <span class="badge">Python</span>
+            <span class="badge">C# / PYTHON / SOLID</span>
             <h3>Nesne Yönelimli Programlama</h3>
-            <p>Sınıf yapıları, kalıtım (inheritance) ve polimorfizm prensiplerini uyguladığım çeşitli otomasyon projeleri.</p>
+            <p>Sınıf yapıları, kalıtım (inheritance), polimorfizm ve SOLID prensiplerini uyguladığım yazılım mimarileri geliştirme süreçleri.</p>
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2026 kutayserhat.dev | Computer Engineer Candidate</p>
-    </footer>
 </div>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Kutay Serhat Öztürk | <a href="https://kutayserhat.dev" style="color: inherit; text-decoration: none;">kutayserhat.dev</a></p>
+    </div>
+</footer>
 
 </body>
 </html>
